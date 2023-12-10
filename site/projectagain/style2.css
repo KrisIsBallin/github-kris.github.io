@@ -1,0 +1,175 @@
+*{
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #22728a;
+    color: white;
+  }
+
+  .site{
+    display: flex;
+    flex-direction: column;
+  }
+  .presclicker{
+    margin-left: 50%;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    align-items: center;
+  }
+
+    .imgbutton {
+      margin-left: 45%;
+      height: 200px;
+      width: 500px;
+      border: none;
+      background-image: url("one\ dorra.jpg");
+      background-size: cover;
+    }
+  
+    .imgbutton:hover {
+      opacity: 0.8;
+    }
+
+    .imgbutton:active {
+      transform: scale(0.95);
+    }
+    .joebutton {
+      
+      height: 100px;
+      width: 100px;
+      border: none;
+      background-image: url("lets\ fucking\ joe.jpg");
+      background-size: cover;
+    }
+  
+    .joebutton:hover {
+      opacity: 0.8;
+    }
+
+    .joebutton:active {
+      transform: scale(0.95);
+    }
+
+.joeupgrade {
+  display: flex;
+  flex-direction: row;
+}
+
+.johnbutton {
+      
+  height: 100px;
+  width: 100px;
+  border: none;
+  background-image: url("images.jpg");
+  background-size: cover;
+}
+
+.johnbutton:hover {
+  opacity: 0.8;
+}
+
+.johnbutton:active {
+  transform: scale(0.95);
+} 
+
+.johnupgrade {
+  display: flex;
+  flex-direction: row;
+}
+
+.trumpbutton {
+      
+  height: 100px;
+  width: 100px;
+  border: none;
+  background-image: url("trunk.jpg");
+  background-size: cover;
+}
+
+.trumpbutton:hover {
+  opacity: 0.8;
+}
+
+.trumpbutton:active {
+  transform: scale(0.95);
+} 
+
+.trumpupgrade {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.inflabutton {
+      
+  height: 100px;
+  width: 100px;
+  border: none;
+  background-image: url("printer.jpg");
+  background-size: cover;
+}
+
+.inflabutton:hover {
+  opacity: 0.8;
+}
+
+.inflabutton:active {
+  transform: scale(0.95);
+} 
+
+.inflaupgrade {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.finalbutton {
+      
+  height: 100px;
+  width: 100px;
+  border: none;
+  background-image: url("twins.jpg");
+  background-size: cover;
+}
+
+.finalbutton:hover {
+  opacity: 0.8;
+}
+
+.finalbutton:active {
+  transform: scale(0.95);
+} 
+
+.finalupgrade {
+  display: flex;
+  flex-direction: row;
+}
+ .score {
+  margin-left: 50%;
+ }
+
+    .body{
+    background-color: rgb(159, 174, 196);
+     
+    }
